@@ -13,9 +13,13 @@ export default function PagComponente(props: any) {
     bg-black text-white"
     >
       <Cabecalho titulo={props.titulo} subtitulo={props.subtitulo} />
-      <Menu />
-      <Conteudo />
-      <Rodape />
+      <div className="flex flex-1 gap-5">
+        <Menu />
+        <Conteudo>
+          {props.children}
+        </Conteudo>
+      </div>
+      <Rodape autor={props.autor} criadoEm={props.criadoEm} />
     </div>
   );
 }
