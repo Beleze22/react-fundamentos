@@ -3,7 +3,7 @@ export default function Rodape(props: any) {
     <div
       className="
   flex justify-between items-center
-  h-36 px-5 rounded-lg text-sm
+  h-11 px-5 rounded-lg text-sm
   bg-cyan-600
   "
     >

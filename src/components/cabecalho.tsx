@@ -2,7 +2,7 @@ export default function Cabecalho(props: any) {
   return (
     <div
       className="flex flex-col justify-center items-center
-  h-36  
+  h-28  
   bg-purple-500 
   rounded-lg"
     >

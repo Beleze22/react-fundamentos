@@ -8,18 +8,18 @@ export default function PagComponente(props: any) {
   return (
     <div
       className="
-    flex flex-col h-screen
+    flex  h-screen
     p-5 gap-5
     bg-black text-white"
     >
-      <Cabecalho titulo={props.titulo} subtitulo={props.subtitulo} />
-      <div className="flex flex-1 gap-5">
-        <Menu />
+      <Menu />
+      <div className="flex flex-col flex-1 gap-5">
+        <Cabecalho titulo={props.titulo} subtitulo={props.subtitulo} />
         <Conteudo>
           {props.children}
         </Conteudo>
+        <Rodape autor={props.autor} criadoEm={props.criadoEm} />
       </div>
-      <Rodape autor={props.autor} criadoEm={props.criadoEm} />
     </div>
   );
 }
