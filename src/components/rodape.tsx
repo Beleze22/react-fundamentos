@@ -1,9 +1,14 @@
-export default function Rodape(props: any) {
+interface RodapeProps {
+  autor: string
+  criadoEm: string
+}
+
+export default function Rodape(props: RodapeProps) {
   return (
     <div
       className="
   flex justify-between items-center
-  h-11 px-5 rounded-lg text-sm
+  h-16 px-5 rounded-lg text-sm
   bg-cyan-600
   "
     >
