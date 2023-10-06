@@ -1,3 +1,5 @@
+import { Icon360View } from "@tabler/icons-react";
+import { IconHome } from "@tabler/icons-react";
 import MenuItem from "./MenuItem";
 
 export default function Menu() {
@@ -8,8 +10,8 @@ export default function Menu() {
     bg-black text-3xl p-4 gap-2
     "
     >
-      <MenuItem texto="Página #1" url="/fundamentos/pagina" />
-      <MenuItem texto="Página #2" url="/pagina" />
+      <MenuItem icone={<IconHome />} texto="Página #1" url="/fundamentos/pagina" />
+      <MenuItem icone={<Icon360View />} texto="Página #2" url="/pagina" />
     </div>
   );
 }

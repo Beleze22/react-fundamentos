@@ -12,8 +12,8 @@ export default function Rodape(props: RodapeProps) {
   border-t border-zinc-800 bg-zinc-900
   "
     >
-      <h3>{props.autor}</h3>
-      <h3>{props.criadoEm}</h3>
+      <h3>Feito com ❤ por {props.autor}</h3>
+      <h3>Criado em {props.criadoEm}</h3>
     </div>
   );
 }
