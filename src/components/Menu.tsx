@@ -5,7 +5,7 @@ export default function Menu() {
     <div
       className="
     flex flex-col justify-start items-center w-52
-    bg-zinc-700 rounded-lg text-3xl p-4 gap-2
+    bg-black text-3xl p-4 gap-2
     "
     >
       <MenuItem texto="Página #1" url="/fundamentos/pagina" />
