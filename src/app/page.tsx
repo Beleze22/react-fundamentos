@@ -10,10 +10,11 @@ export default function Home() {
       criadoEm="2023">
       <div className={`
       flex flex-col justify-center items-center
-      w-full h-full
+      w-full h-full text-zinc-500
       `}>
         <IconBrandReact size={200} stroke={1} />
-        <span>Curso Fundamentos de React</span>
+        <span className="font-black">Curso Fundamentos de React</span>
+        <span className="text-sm">Aqui você vai aprender fundamentos sólidos da biblioteca React</span>
       </div>
     </PagComponente>
   )

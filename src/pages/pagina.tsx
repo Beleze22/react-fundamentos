@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "../app/globals.css";
 import PagComponente from "@/components/pagina";
 
@@ -14,12 +15,15 @@ export default function Pagina() {
       subtitulo="Estou na pasta Pages! 222"
       autor="Feito com ❤️ por Gustavo Beleze"
       criadoEm={`Desenvolvido em ${ano}`}>
-      <button
-        onClick={executar}
-        className="bg-blue-500 p-2 rounded-md"
-      >
-        Teste
-      </button>
+      <Link href={"/"}>
+        <button
+          onClick={executar}
+          className="bg-blue-500 p-2 rounded-md"
+        >
+          Teste
+        </button>
+      </Link>
+
     </PagComponente>
   );
 }

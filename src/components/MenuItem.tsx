@@ -4,6 +4,7 @@ interface MenuItemProps {
   texto: string
   url: string
   icone: any
+  className?: any
 }
 
 export default function MenuItem(props: MenuItemProps) {

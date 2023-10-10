@@ -6,8 +6,8 @@ export default function Page() {
     <PagComponente
       titulo="Minha aplicação"
       subtitulo="O melhor app da WEB"
-      autor="Feito com ❤️ por Gustavo Beleze"
-      criadoEm={`Desenvolvido em ${new Date().getFullYear()}`}>
+      autor="Gustavo Beleze"
+      criadoEm={`${new Date().getFullYear()}`}>
       <ul className="list-disc">
         <li>Ana</li>
         <li>Gustavo</li>

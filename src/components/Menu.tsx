@@ -1,17 +1,26 @@
-import { Icon360View } from "@tabler/icons-react";
-import { IconHome } from "@tabler/icons-react";
+import { IconArrowBadgeRight, IconCode } from "@tabler/icons-react"
 import MenuItem from "./MenuItem";
 
 export default function Menu() {
   return (
     <div
       className="
-    flex flex-col justify-start items-center w-52
-    bg-black text-3xl p-4 gap-2
+    flex flex-col justify-start items-center w-72
+    bg-black p-4 gap-2
     "
     >
-      <MenuItem icone={<IconHome />} texto="Página #1" url="/fundamentos/pagina" />
-      <MenuItem icone={<Icon360View />} texto="Página #2" url="/pagina" />
+      <span className="self-start text-sm text-zinc-500 pl-3 pt-4">Estado</span>
+      <MenuItem icone={<IconCode />} texto="Componente sem Estado" url="/estado/sem" />
+      <MenuItem icone={<IconCode />} texto="Componente com Estado" url="/estado/com" />
+      <span className="self-start text-sm text-zinc-500 pl-3 pt-4">Componentes</span>
+      <MenuItem icone={<IconArrowBadgeRight />} texto="Básico" url="/componentes/basico" />
+      <MenuItem icone={<IconArrowBadgeRight />} texto="Título" url="/componentes/titulo" />
+      <MenuItem icone={<IconArrowBadgeRight />} texto="Trecho" url="/componentes/trecho" />
+      <span className="self-start text-sm text-zinc-500 pl-3 pt-4">Fundamentos</span>
+      <MenuItem icone={<IconArrowBadgeRight />} texto="Funções" url="/fundamentos/funcoes" />
+      <MenuItem icone={<IconArrowBadgeRight />} texto="Soma" url="/fundamentos/soma" />
+      <MenuItem icone={<IconArrowBadgeRight />} texto="Página #1" url="/fundamentos/pagina" />
+      <MenuItem icone={<IconArrowBadgeRight />} texto="Página #2" url="/pagina" />
     </div>
   );
 }
