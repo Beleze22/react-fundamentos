@@ -1,5 +1,4 @@
 import Link from "next/link";
-import "../app/globals.css";
 import PagComponente from "@/components/pagina";
 
 export default function Pagina() {
@@ -18,7 +17,7 @@ export default function Pagina() {
       <Link href={"/"}>
         <button
           onClick={executar}
-          className="bg-blue-500 p-2 rounded-md"
+          className="botao"
         >
           Teste
         </button>

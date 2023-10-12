@@ -1,5 +1,4 @@
 import PagComponente from "@/components/pagina";
-import "../../app/globals.css"
 import { useState } from "react";
 
 export default function PaginaComEstado() {
@@ -28,7 +27,7 @@ export default function PaginaComEstado() {
           <span>Valor: </span>
           <span>{numero}</span>
         </div>
-        <button className="bg-blue-500 p-2 rounded-lg" onClick={incrementar}>
+        <button className="botao" onClick={incrementar}>
           Incrementar
         </button>
       </div>

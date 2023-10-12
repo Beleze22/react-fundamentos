@@ -1,4 +1,3 @@
-import "../app/globals.css";
 import PagComponente from "@/components/pagina";
 
 export default function Teste() {

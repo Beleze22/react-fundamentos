@@ -1,5 +1,4 @@
 import PagComponente from "@/components/pagina";
-import "../../app/globals.css"
 
 export default function PaginaSemEstado() {
   let numero = 0
@@ -20,7 +19,7 @@ export default function PaginaSemEstado() {
           <span>Valor: </span>
           <span>{numero}</span>
         </div>
-        <button className="bg-blue-500 p-2 rounded-lg" onClick={incrementar}>
+        <button className="botao" onClick={incrementar}>
           Incrementar
         </button>
       </div>
