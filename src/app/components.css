@@ -14,3 +14,8 @@
   @apply hover:bg-purple-800;
   @apply text-lg;
 }
+
+.campo {
+  @apply bg-black px-4 py-2;
+  @apply text-white rounded-md;
+}

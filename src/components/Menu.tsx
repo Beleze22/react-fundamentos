@@ -1,4 +1,4 @@
-import { IconArrowBadgeRight, IconCode, IconNumbers } from "@tabler/icons-react"
+import { IconArrowBadgeRight, IconCode, IconForms, IconNumbers } from "@tabler/icons-react"
 import MenuItem from "./MenuItem";
 
 export default function Menu() {
@@ -13,6 +13,7 @@ export default function Menu() {
       <MenuItem icone={<IconCode />} texto="Componente sem Estado" url="/estado/sem" />
       <MenuItem icone={<IconCode />} texto="Componente com Estado" url="/estado/com" />
       <MenuItem icone={<IconNumbers />} texto="Desafio #01 - Contador" url="/estado/desafio_01" />
+      <MenuItem icone={<IconForms />} texto="Campo de Texto" url="/estado/campoTexto" />
       <span className="self-start text-sm text-zinc-500 pl-3 pt-4">Componentes</span>
       <MenuItem icone={<IconArrowBadgeRight />} texto="Básico" url="/componentes/basico" />
       <MenuItem icone={<IconArrowBadgeRight />} texto="Título" url="/componentes/titulo" />

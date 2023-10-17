@@ -1,5 +1,4 @@
 import AreaLateral from "./AreaLateral";
-import Menu from "./Menu";
 import Cabecalho from "./cabecalho";
 import Conteudo from "./conteudo";
 import Rodape from "./rodape";
