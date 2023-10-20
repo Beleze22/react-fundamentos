@@ -1,5 +1,7 @@
 import {
   IconArrowBadgeRight,
+  IconArrowDownSquare,
+  IconArrowUpSquare,
   IconCalculator,
   IconCode,
   IconForms,
@@ -40,6 +42,19 @@ export default function Menu() {
         icone={<IconCalculator />}
         texto="Calculadora"
         url="/estado/calculadora"
+      />
+      <span className="self-start text-sm text-zinc-500 pl-3 pt-4">
+        Comunicação
+      </span>
+      <MenuItem
+        icone={<IconArrowDownSquare />}
+        texto="Direta"
+        url="/comunicacao/direta"
+      />
+      <MenuItem
+        icone={<IconArrowUpSquare />}
+        texto="Indireta"
+        url="/comunicacao/indireta"
       />
       <span className="self-start text-sm text-zinc-500 pl-3 pt-4">
         Componentes
